@@ -10,5 +10,5 @@ En este repositorio se encontrará con una librería en la cual puede realizar v
 # Ejemplos de cómo usar:
 a continuación se muestran algunos ejemplos de los usos de la calculadora de complejos:
 
-- *Ejemplo de operación suma:*
->>>de
+>Ejemplo de operación suma:
+
