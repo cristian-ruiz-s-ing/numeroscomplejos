@@ -44,5 +44,5 @@ Básicamente este es el mismo procedimiento para todas las opciones, pero por si
   La librería le retorna:
     
     [['1-2i', '5-6i'], ['3-4i', '7-8i']]
-    lo cual es una matriz de dos filas y dos columnas correspondiente a la adjunta de la matriz ingresada
+    lo cual es una matriz de dos filas y dos columnas correspondiente a la adjunta de la matriz ingresada.
 
