@@ -10,12 +10,12 @@ En este repositorio se encontrará con una librería en la cual puede realizar v
 # Ejemplos de cómo usar:
 A continuación se muestran algunos ejemplos de los usos de la calculadora de complejos:
 
->Ejemplo de operación suma:
+**Ejemplo de operación suma:**
 - Al ejecutar el archivo "uso.py" se le desplegarán todas las opciones de operaciones entre números complejos, vectores complejos y matrices complejas
 - Para hacer una suma de complejos debe marcar en el menú desplegado la opción 1 y a continuación los complejos que desea operar
-Si ingresa:
-5,1
-4,3
-La librería le retorna:
-9+4i
+>Si ingresa:
+>5,1
+>4,3
+>La librería le retorna:
+>9+4i
 
