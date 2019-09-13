@@ -13,5 +13,5 @@ A continuación se muestran algunos ejemplos de los usos de la calculadora de co
 >Ejemplo de operación suma:
 - Al ejecutar el archivo "uso.py" se le desplegarán todas las opciones de operaciones entre números complejos, vectores complejos y matrices complejas
 - Para hacer una suma de complejos debe marcar en el menú desplegado la opción 1 y a continuación los complejos que desea operar
-![GitHub Ejemplo](C:\Users\2153815\Downloads\Complejos\suma.PNG)
+![GitHub Ejemplo](\Users\2153815\Downloads\Complejos\suma.PNG)
 
