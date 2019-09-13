@@ -70,7 +70,10 @@ def bonito(c2):
         if int(c2[1])==0:
             x+='0'
         else:
-            x+=str(c2[1])+'i'
+            if int(c2[1])==1:
+                x+='i'
+            else:
+                x+=str(c2[1])+'i'
     else:
         if int(c2[1])==0:
             x+=str(c2[0])
@@ -91,7 +94,8 @@ def div(c1,c2):
 def modulo(c1):
     x=bonito(c1)
     a=((int(c1[0])**2)+(int(c1[1])**2))**(1/2)
-    return a
+    y=round(a,3)
+    return y
     
 
 
@@ -105,6 +109,8 @@ def conj(c1):
 def polar(c1):
     r=((float(c1[0])**2)+(float(c1[1])**2))**(1/2)
     a=math.atan(float(c1[1])/float(c1[0]))
+    r=round(r,3)
+    a=round(a,3)
     coord=(r,a)
     return coord
 
@@ -112,10 +118,13 @@ def cart(c1):
     resp=[0,0]
     resp[0]=(float(c1[0])*math.cos(float(c1[1])))
     resp[1]=(float(c1[0])*math.sin(float(c1[1])))
+    resp[0]=round(resp[0],3)
+    resp[1]=round(resp[1],3)
     x=bonito(resp)
     return x
     
 def sumatrices(m1,m2):
+    print(m1,m2)
     res=[]
     
     for i in range(len(m1)):
