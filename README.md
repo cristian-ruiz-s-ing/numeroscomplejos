@@ -25,7 +25,9 @@ A continuación se muestran algunos ejemplos de los usos de la calculadora de co
     9+4i
 
 Básicamente este es el mismo procedimiento para todas las opciones, pero por si acaso, aquí va una más
+
 **Ejemplo de la adjunta de una matriz**
+
 - Al ejecutar el archivo "uso.py" se le desplegarán todas las opciones de operaciones entre números complejos, vectores complejos y matrices complejas
 - Para hallar la adjunta de una matriz, en el menú desplegado debe marcar la opción 14, luego las dimensiones de la matriz y a continuación los elementos de la matriz a la que le desa hallar la adjunta
 
