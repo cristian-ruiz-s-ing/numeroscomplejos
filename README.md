@@ -47,4 +47,28 @@ Básicamente este es el mismo procedimiento para todas las opciones, pero por si
     
     [['1-2i', '5-6i'], ['3-4i', '7-8i']]
     lo cual es una matriz de dos filas y dos columnas correspondiente a la adjunta de la matriz ingresada.
+    
+ Por ultimo, un ejemplo de cómo saber si una matriz es unitaria
+ 
+ **Ejemplo de Unitaria**
+ 
+ - Al ejecutar el archivo "uso.py" se le desplegarán todas las opciones de operaciones entre números complejos, vectores complejos y matrices complejas
+- Para saber si una matriz es unitaria, en el menú desplegado debe marcar la opción 18, luego las dimensiones de la matriz y a continuación los elementos de la matriz de la que se quiere saber si es unitaria
 
+  Si ingresa:
+    
+    2,2
+    
+    1,2
+    
+    3,4
+    
+    5,6
+    
+    7,8
+    
+  La librería le retornará:
+  
+    False
+    
+Esto debido a que para saber si la matriz es unitaria, se procede a encontrar la adjunta de la matriz ingresada y luego realizar la multiplicación entre ellas, si el resultado es igual a la matriz identidad de nxn (en este caso 2x2) la librería retorna True, de lo contrario será Flase.
